@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://esamk02wsse"]
+
+[ext_resource type="Texture2D" uid="uid://cp32o0jf8vkyi" path="res://Sprites/WhitePixel.png" id="1_lc1oi"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lc1oi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_lc1oi")
+position = Vector2(576, 324)
+scale = Vector2(1152, 648)
+texture = ExtResource("1_lc1oi")
